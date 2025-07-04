@@ -549,7 +549,8 @@ section:nth-child(odd){
   transform: translate(-58%,-58%);
   top: 50%;
   left: 50%;
-  top: 300px;
+  top: 350px;
+  
 }
 .contact-container{
   width: 100%;
@@ -559,6 +560,7 @@ section:nth-child(odd){
   border: 2px solid var(--transp-white-2);
   border-radius: 0.6em;
   box-shadow: 0 1.8em 3.7em var(--shadow);
+
 }
 .shape{
   position: absolute;
@@ -571,8 +573,9 @@ section:nth-child(odd){
 .shape-1{
   height: 13.5em;
   width: 13.5em;
-  right: -7.5px;
+  right: 7.5px;
   top: 1.8em;
+
 }
 .shape-2{
   height: 11.5em;
@@ -588,4 +591,35 @@ section:nth-child(odd){
 }
 
 
-/* html */
+/*Inner shape*/
+#foter-name{
+  font-size: 22px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#email{
+  display: block;
+  font-size: 22px;
+  padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#number{
+  display: block;
+  font-size: 22px;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#issue{
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 100px;
+}
+#foter-btn{
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+}
