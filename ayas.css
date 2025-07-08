@@ -40,8 +40,11 @@ nav {
     z-index: 1111;
     background-color: var(--background-color);
 }
-.logo img{
-    height: 35px;
+nav .logo{
+  font-size: 32px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: var(--purple-color);
 }
 .nav-links{
     display: flex;
