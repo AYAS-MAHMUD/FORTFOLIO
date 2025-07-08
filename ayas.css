@@ -391,6 +391,7 @@ section:nth-child(odd){
   margin-left: 50px;
   max-width: 400px;
   margin-right: 50px;
+  line-height: 22px;
 }
 /* Btn */
 #cv-btn{
@@ -432,6 +433,14 @@ section:nth-child(odd){
   color: var(--color);
   font-size: 16px;
   z-index: 1;
+}
+@media (max-width: 445px) {
+
+  #pj-btn{
+     margin-left: 50px;
+     margin-top: 10px;
+  }
+  
 }
 #pj-btn::before{
   content: '';
@@ -504,18 +513,24 @@ section:nth-child(odd){
   
 }
 .p-one{
-  background-color: yellow;
+
   height: 370px;
   width: 300px;
   border-radius: 0 0 0 30%;
   transition: all 1s ease;
   margin-right: 30px;
 }
+.pro-container .img-1{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(128, 123, 123, 0.5);
+}
 .p-one:hover{
   transform: translateY(-.8rem);
 }
 .p-two{
-  background-color: rgb(10, 255, 222);
   height: 370px;
   width: 300px;
   border-radius: 0 0 0 30%;
@@ -526,7 +541,6 @@ section:nth-child(odd){
   transform: translateY(-.8rem);
 }
 .p-three{
-  background-color: rgb(95, 255, 2);
   height: 370px;
   width: 300px;
   border-radius: 0 0 0 30%;
@@ -549,7 +563,7 @@ section:nth-child(odd){
   transform: translate(-58%,-58%);
   top: 50%;
   left: 50%;
-  top: 350px;
+  top: 380px;
   
 }
 .contact-container{
@@ -616,10 +630,33 @@ section:nth-child(odd){
   padding: 10px;
   width: 100%;
   margin-bottom: 20px;
-  height: 100px;
+  height: 50px;
+  font-size: 18px;
 }
 #foter-btn{
   display: block;
   width: 100%;
   padding: 5px 10px;
+  background-color: #66056d;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+#foter-btn:hover{
+  background-color: #870690;
+}
+
+.copy{
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+
+@media (max-width: 500px) {
+
+  .contacttt{
+     margin-top: 50px;
+  }
+  
 }
